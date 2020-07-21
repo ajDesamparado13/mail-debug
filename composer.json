@@ -1,0 +1,24 @@
+{
+  "name": "freedom/mail-debug",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Allen Jay Desamparado",
+      "email": "ajDesamparado13@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Freedom\\MailDebug\\": "src/MailDebug/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Freedom\\MailDebug\\Providers\\LaravelServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
