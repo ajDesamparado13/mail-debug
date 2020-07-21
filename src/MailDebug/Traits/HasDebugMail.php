@@ -1,5 +1,5 @@
 <?php
-namespace App\Subsystem\MailDebug\Traits;
+namespace Freedom\MailDebug\Traits;
 
 use Illuminate\Contracts\Mail\Mailer as MailerContract;
 use Illuminate\Container\Container;

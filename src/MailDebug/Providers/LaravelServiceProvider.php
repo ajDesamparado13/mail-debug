@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Subsystem\MailDebug\Providers;
+namespace Freedom\MailDebug\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
