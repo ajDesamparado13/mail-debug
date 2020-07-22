@@ -13,7 +13,7 @@ class LaravelServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '../views', 'mail.debug');
+        $this->loadViewsFrom(__DIR__ . '/../views', 'mail.debug');
     }
 
     /**
