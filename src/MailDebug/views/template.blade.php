@@ -1,4 +1,4 @@
-@if(\Config::get('mail.debug'))
+@if(isset($debug) && \Config::get('mail.debug'))
 <br>
 <br>
 <br>
